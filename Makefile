@@ -13,6 +13,7 @@ reproduce:
 	$(PYTHON) reproduction/reproduce_doses.py
 	$(PYTHON) reproduction/reproduce_diagnostics.py
 	$(PYTHON) reproduction/reproduce_judge_panel.py
+	$(PYTHON) reproduction/reproduce_sensitivity.py
 
 refit:
 	$(PYTHON) reproduction/reproduce_selection.py --refit-probes

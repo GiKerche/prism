@@ -30,7 +30,12 @@
     "llama70_panel_responses": 3200,
     "llama70_panel_candidates": 952,
     "llama70_panel_rates": 16,
-    "llama70_panel_contrasts": 8
+    "llama70_panel_contrasts": 8,
+    "stratified_audit_responses": 753,
+    "stratified_audit_rates": 120,
+    "stratified_audit_contrasts": 72,
+    "language_summaries": 12,
+    "exploratory_equivalence_checks": 5
   },
   "experimental_code": {
     "python_compilation": "PASS",

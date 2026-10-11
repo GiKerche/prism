@@ -32,6 +32,7 @@ the checking scripts.
 | `python reproduction/reproduce_doses.py` | Admissibility and the one-standard-error rule for all 24 selected signed doses, using the complete saved grid summaries |
 | `python reproduction/reproduce_diagnostics.py` | Audited construction yield, 1,000 paired family subsamples per budget and language-vector geometry |
 | `python reproduction/reproduce_judge_panel.py` | Complete Llama70B sensitivity analysis from 3,200 responses and 952 candidate responses |
+| `python reproduction/reproduce_sensitivity.py` | Fixed 753-response audit, weighted evaluator sensitivity, language summaries and exploratory equivalence intervals |
 
 `make figures` regenerates the primary benchmark figure, dose curves, scarcity,
 language geometry, language matrices and layer-selection plot. Tables and
