@@ -2,8 +2,7 @@
 
 ## Scope
 
-The deposited results correspond to the final author manuscript of 11 October
-2026. All default checks are offline CPU computations. They recompute the
+The deposited results correspond to the anonymous review manuscript. All default checks are offline CPU computations. They recompute the
 reported statistics from recorded binary outcomes and reconstruct fitting and
 selection computations from the deposited numerical inputs.
 
@@ -19,6 +18,15 @@ comparisons use explicit tolerances; scientific inputs are never modified by
 the checking scripts.
 
 ## Verification commands
+
+After downloading the repository, run `python reproduction/restore_artifacts.py`
+before invoking individual analysis scripts. Eight files exceed the anonymous
+host's 8 MB per-file limit, so their exact bytes are distributed as gzip streams
+split into parts of at most 7,000,000 bytes. The manifest is
+`reproduction/artifact_parts.json`. Restoration uses only Python's standard
+library, verifies each part and the original file's SHA-256, and refuses to
+replace an existing file with different contents. All `make` targets restore
+the files automatically. No scientific value or fitting artifact is changed.
 
 | Command | Reproduces |
 | --- | --- |

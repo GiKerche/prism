@@ -1,18 +1,7 @@
 cff-version: 1.2.0
-message: "Please cite the accompanying PRISM manuscript."
+message: "Please cite the accompanying anonymous PRISM manuscript."
 title: "PRISM: Transfer and Limits of Activation Interventions in Tool-Calling Language Models"
 type: software
 version: "2026.10.11"
-date-released: "2026-10-11"
-repository-code: "https://github.com/GiKerche/prism"
 authors:
-  - family-names: "Bonás"
-    given-names: "Giovana Kerche"
-  - family-names: "Almeida"
-    given-names: "Thales Sales"
-  - family-names: "Reis"
-    given-names: "Marcelo da Silva"
-  - family-names: "Nogueira"
-    given-names: "Rodrigo"
-  - family-names: "Raimundo"
-    given-names: "Marcos Meideiros"
+  - name: "Anonymous authors"
